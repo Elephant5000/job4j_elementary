@@ -12,7 +12,6 @@ public class CounterTest {
         int expected = 30;
         assertThat(rsl, is(expected));
     }
-<<<<<<< HEAD
 
     @Test
     public void whenSumEvenNumbersFromOneToFiftyThenThirty() {
@@ -20,6 +19,4 @@ public class CounterTest {
         int expected = 650;
         assertThat(rsl, is(expected));
     }
-=======
->>>>>>> origin/master
 }
