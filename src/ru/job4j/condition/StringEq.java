@@ -1,0 +1,14 @@
+package ru.job4j.condition;
+
+public class StringEq {
+    public static boolean check(String login) {
+        String root = "root";  //String root = new String("root");   Меняем присвоение.
+        return root.equals(login);
+    }
+
+    public static void main(String[] args) {
+        String your = "your_name";
+        boolean userHasAccess = StringEq.check(your);
+        System.out.println(userHasAccess);
+    }
+}

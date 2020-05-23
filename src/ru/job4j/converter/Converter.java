@@ -12,11 +12,10 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        int rub = 2000;
-        int usd = Converter.rubTousd(rub);
-        System.out.println(rub + " рублей эквиватентны - " + usd + " долларам");
-        int euro = Converter.rubToeur(rub);
-        System.out.println(rub + " рублей эквиватентны - " + euro + " евро");
-
+        int in = 170;
+        int expected = 2;
+        int out = rubToeur(in);
+        boolean passed = expected == out;
+        System.out.println(in + " rubles  are " + out + ". Результат теста : " + passed);
     }
 }
