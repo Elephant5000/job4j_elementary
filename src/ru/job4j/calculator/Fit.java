@@ -16,10 +16,10 @@ public class Fit {
         double heightWoman = 165;
 
         double man = Fit.manWeight(heightMan);
-        System.out.println("Man "  + heightMan +  " is " +  man);
+        System.out.println("Man " + heightMan + " is " + man);
 
         double women = Fit.womanWeight(heightWoman);
-        System.out.println("Woman " +  heightWoman +  " is " +  women);
+        System.out.println("Woman " + heightWoman + " is " + women);
 
     }
 
