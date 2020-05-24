@@ -17,7 +17,7 @@ public class FindLoop {
         if (finish > data.length - 1) {
             finish = data.length - 1;
         }
-        for (int index = start; index < finish; index++) {
+        for (int index = start; index <= finish; index++) {
             if (data[index] == el) {
                 rst = index;
                 break;
