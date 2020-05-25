@@ -7,6 +7,16 @@ import static org.junit.Assert.assertThat;
 public class FindLoopTest {
 
     @Test
+    public void whenArrayHas4Then4() {
+        FindLoop find = new FindLoop();
+        int[] input = new int[] {5, 2, 10, 2, 4};
+        int value = 4;
+        int result = find.indexOf(input, value);
+        int expect = 4;
+        assertThat(result, is(expect));
+    }
+
+    @Test
     public void whenArrayHas5Then0() {
         FindLoop find = new FindLoop();
         int[] input = new int[] {5, 10, 3};
