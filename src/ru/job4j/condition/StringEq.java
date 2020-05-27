@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class StringEq {
     public static boolean check(String login) {
-        String root = "root";  //String root = new String("root");   Меняем присвоение.
+        String root = "root";
         return root.equals(login);
     }
 
